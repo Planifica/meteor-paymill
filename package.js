@@ -1,6 +1,6 @@
 Package.describe({
   name: 'planifica:paymill',
-  version: '0.0.2',
+  version: '0.0.3',
   // Brief, one-line summary of the package.
   summary: 'Official JS paymill library carefully packaged for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -10,7 +10,7 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Npm.depends({'paymill-wrapper': '2.1.0'});
+Npm.depends({'paymill-wrapper': '2.2.0'});
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
