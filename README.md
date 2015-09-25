@@ -17,3 +17,6 @@ For all available services and methods consult the documentation of the npm pack
 
 #### Client
 Just follow [the official guidelines](https://developers.paymill.com/en/reference/paymill-bridge/). You can skip the first step, as it is already taken care of inside this package. The namespace under which the bridge methods are available is "paymill", the same as in the documentation.
+
+#### Changelog
+0.0.4: Using planifica/paymill-js fork for better paypal integration (checksum with clientId and action) until the changes are implemented or merged back into original repository.
